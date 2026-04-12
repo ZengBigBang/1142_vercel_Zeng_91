@@ -1,5 +1,5 @@
 'use client';
-import {createUser2} from "@/actions/userAction_214410291";
+import {createUser2} from "@/actions/user.action_214410291";
 import { useFormStatus, useFormState } from "react-dom";
 const SubmitButton = () => {
     const { pending } = useFormStatus();

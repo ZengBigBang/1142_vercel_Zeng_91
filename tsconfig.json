@@ -30,6 +30,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-, "prisma.config.ts"  ],
+, "prisma.config.ts", "src/app/grocery_db_91/_components/Form_91.jsx", "src/app/grocery_db_91/_components/Items_91.jsx", "src/app/grocery_db_91/_components/SingleItem_91.jsx"  ],
   "exclude": ["node_modules"]
 }

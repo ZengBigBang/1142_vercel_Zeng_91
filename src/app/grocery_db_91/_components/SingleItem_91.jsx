@@ -1,10 +1,9 @@
-const SingleItem_91 = ({ item, removeItem, editItem }) => {
+const SingleItem_91 = ({ item }) => {
   return (
     <div className='single-item'>
       <input
         type='checkbox'
         checked={item.completed}
-        onChange={() => editItem(item.id)}
       />
       <p
         style={{
@@ -17,7 +16,6 @@ const SingleItem_91 = ({ item, removeItem, editItem }) => {
       <button
         className='btn remove-btn'
         type='button'
-        onClick={() => removeItem(item.id)}
       >
         delete
       </button>

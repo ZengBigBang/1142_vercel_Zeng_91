@@ -1,4 +1,4 @@
-import { removeUser } from '@/actions/userAction_214410291';
+import { removeUser } from '@/actions/user.action_214410291';
 const DeleteButton_91 = ({ id } : { id: number }) => {
     const removeUserWithId = removeUser.bind(null, id);
     return (
